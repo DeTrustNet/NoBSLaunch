@@ -1,7 +1,7 @@
 {
-  "name": "hardhat-hackathon-boilerplate",
+  "name": "de-trust",
   "version": "1.0.0",
-  "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
+  "description": "Nomic Labs hackathon Boilerplate",
   "directories": {
     "test": "test"
   },
@@ -9,36 +9,29 @@
     "test": "hardhat test"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nomiclabs/hardhat-hackathon-boilerplate.git"
+    "type": "git"
   },
   "keywords": [
-    "hardhat",
-    "ethereum",
-    "hackathon"
+    "hardhat"
   ],
-  "author": "Nomic Labs",
+  "author": "DeTrust",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate/issues"
-  },
-  "homepage": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate#readme",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": ">=2.0.0",
-    "@nomiclabs/hardhat-waffle": ">=2.0.0",
-    "chai": ">=4.2.0",
-    "ethereum-waffle": ">=3.1.1",
-    "ethers": ">=5.0.0",
-    "hardhat": ">=2.0.4",
-    "husky": ">=4.2.5"
+    "@nomiclabs/hardhat-ethers": "latest",
+    "@nomiclabs/hardhat-waffle": "latest",
+    "chai": "latest",
+    "ethereum-waffle": "latest",
+    "ethers": "latest",
+    "hardhat": "latest",
+    "husky": "latest"
   },
   "dependencies": {
-    "@ethereumjs/block": "^3.4.0",
-    "@ethereumjs/tx": "^3.3.0",
-    "lodash": "^4.17.21",
-    "node-fetch": "^2.6.1",
-    "underscore": "^1.12.1",
-    "ws": "^5.2.3",
-    "yargs-parser": "^20.2.9"
+    "@ethereumjs/block": "latest",
+    "@ethereumjs/tx": "latest",
+    "lodash": "latest",
+    "node-fetch": "latest",
+    "underscore": "latest",
+    "ws": "latest",
+    "yargs-parser": "latest"
   }
 }
