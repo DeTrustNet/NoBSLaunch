@@ -31,5 +31,14 @@
     "ethers": ">=5.0.0",
     "hardhat": ">=2.0.4",
     "husky": ">=4.2.5"
+  },
+  "dependencies": {
+    "@ethereumjs/block": "^3.4.0",
+    "@ethereumjs/tx": "^3.3.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
+    "underscore": "^1.12.1",
+    "ws": "^5.2.3",
+    "yargs-parser": "^20.2.9"
   }
 }
