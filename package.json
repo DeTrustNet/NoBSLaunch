@@ -6,7 +6,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "build": "cd frontend && yarn build"
   },
   "repository": {
     "type": "git"
