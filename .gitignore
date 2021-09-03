@@ -1,0 +1,17 @@
+node_modules
+.idea
+
+#Hardhat files
+cache
+artifacts
+# Secrets, ignore all files starting with .secret
+.secret.*
+*/.secret.*
+.secret*
+*/.secret*
+
+yarn-error.log
+
+*.log
+*ref.sol
+*ref.*.sol
