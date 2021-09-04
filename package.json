@@ -1,6 +1,6 @@
 {
   "name": "de-trust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nomic Labs hackathon Boilerplate",
   "directories": {
     "test": "test"
@@ -20,19 +20,8 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "latest",
     "@nomiclabs/hardhat-waffle": "latest",
-    "chai": "latest",
-    "ethereum-waffle": "latest",
-    "ethers": "latest",
     "hardhat": "latest",
     "husky": "latest"
   },
-  "dependencies": {
-    "@ethereumjs/block": "latest",
-    "@ethereumjs/tx": "latest",
-    "lodash": "latest",
-    "node-fetch": "latest",
-    "underscore": "latest",
-    "ws": "latest",
-    "yargs-parser": "latest"
-  }
+  "dependencies": {}
 }
