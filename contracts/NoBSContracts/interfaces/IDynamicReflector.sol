@@ -2,7 +2,7 @@
 pragma solidity >=0.6.0;
 
 import "./IBaseDistributor.sol";
-import "../utils/AuthorizedList.sol";
+import "../../interfaces/IAuthorizedList.sol";
 
 interface IDynamicReflector is IBaseDistributor, IAuthorizedList {
 

@@ -7,7 +7,7 @@ Rather than rewrite them, this contract performs them for us and uses both gener
 -The Dev
 */
 import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/IBEP20.sol';
-import '@openzeppelin/contracts/utils/math/SafeMath.sol';
+import '@pancakeswap/pancake-swap-lib/contracts/math/SafeMath.sol';
 import '@pancakeswap-libs/pancake-swap-core/contracts/interfaces/IPancakePair.sol';
 import '@pancakeswap-libs/pancake-swap-core/contracts/interfaces/IPancakeFactory.sol';
 import 'pancakeswap-peripheral/contracts/interfaces/IPancakeRouter02.sol';

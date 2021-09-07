@@ -19,20 +19,19 @@
   "license": "MIT",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "latest",
+    "@nomiclabs/hardhat-etherscan": "latest",
     "@nomiclabs/hardhat-waffle": "latest",
     "@openzeppelin/contracts": "latest",
-    "@nomiclabs/hardhat-etherscan": "latest",
-
     "@pancakeswap-libs/pancake-swap-core": "latest",
     "@pancakeswap/pancake-swap-lib": "latest",
-    "pancakeswap-peripheral": "latest",
     "@uniswap/v2-periphery": "latest",
     "@uniswap/v3-periphery": "latest",
-
     "hardhat": "latest",
     "hardhat-contract-sizer": "latest",
     "hardhat-storage-layout": "latest",
-    "husky": "latest"
+    "husky": "latest",
+    "pancakeswap-peripheral": "latest",
+    "webpack": "4.44.2"
   },
   "dependencies": {}
 }

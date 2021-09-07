@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-import '@openzeppelin/contracts/utils/Context.sol';
+import '@pancakeswap/pancake-swap-lib/contracts/GSN/Context.sol';
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where

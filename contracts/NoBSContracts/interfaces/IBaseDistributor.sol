@@ -13,7 +13,7 @@ interface IBaseDistributor {
         uint256 decimals;
     }
 
-    uint256 public constant defaultDecimals = 10 ** 18;
+//    uint256 public constant defaultDecimals = 10 ** 18;
 
     function deposit() external payable;
     function rewardCurrency() external view returns(string memory);
